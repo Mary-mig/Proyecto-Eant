@@ -27,5 +27,76 @@
 	</p>
     <p>	Ademas de textos en <strong> negrita </strong>, tambien se pueden poner en <strong style="text-decoration: italic;"> cursiva </strong> o  <s>tachados</s>
     </p>
-  </body>
+    <form action="/new-contact" method="POST">
+		    	<input type="text" name="username" placeholder="Your username">
+		    	<input type="email" name="email" placeholder="Your email">
+		    	<input type="number" name="age" placeholder="Your age" min="18" max="110">
+		    	<input type="number" name="a-number" min="10" max="50" step="5">
+		    	<input type="number" name="age" placeholder="Your age" value="18">
+		    	<input type="submit">
+		    	<input type="submit" value="Click me">
+		    	<input type="text" name="username" required>
+		    	<input type="text" name="username" pattern="[a-zA-Z]{8}">
+		    	<input type="hidden" name="some-hidden-field" value="some-value">
+		    	<input type="file" name="secret-documents">
+		    	<input type="reset">
+		    	<input type="button" value="Click me">
+		    	<input type="radio" name="color" value="yellow">
+				<input type="radio" name="color" value="red">
+				<input type="radio" name="color" value="blue">
+				<input type="checkbox" name="color" value="yellow">
+				<input type="checkbox" name="color" value="red">
+				<input type="checkbox" name="color" value="blue">
+				<br>
+				<input type="url" name="website">
+			<br>
+			<br>
+				<input type="date" name="birthday"> 
+			<p>
+			</p>
+				<input type="week" name="choose-week">
+			<p>
+				<input type="range" name="age" min="0" max="100" value="30">
+			</p>
+				<input type="color" name="car-color">
+				</form>	
+			<form>
+				<input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number">
+				<p>
+					<input type="tel" name="telephone-number">		
+				</p>
+				<p>
+					<textarea rows="20" cols="10"></textarea>
+					<textarea name="article"></textarea>
+				</p>				
+				<p>
+					<select name="color">
+						<option value="red">Red</option>
+						<option value="yellow">Yellow</option>
+					</select>
+					<br>
+					<select name="color">
+						<optgroup label="Primary">
+						<option value="red">Red</option>
+						<option value="yellow">Yellow</option>
+						<option value="blue">Blue</option>
+						</optgroup>
+						<optgroup label="Others">
+						<option value="green">Green</option>
+						<option value="pink">Pink</option>
+						</optgroup>
+				</p>
+			</form>
+			<table>
+						<tr>
+						<th>Column 1</th>
+						<th>Column 2</th>
+						<th>Column 3</th>
+						</tr>
+						<tr></tr>
+						<tr></tr>
+			</table>
+				
+	  	
+      </body>
 </html>
