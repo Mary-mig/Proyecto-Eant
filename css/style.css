@@ -6,10 +6,16 @@ body{
 }
 header {
 	background-color: #171717;
+	overflow:hidden;
+	padding:20px;
 }
 header h1{
 	margin:0;
 	color: #D9D9D9;
+	float:left;
+	background-image: url("../img/logo.png");
+	background-repeat:no-repeat;
+	padding-left: 75px;
 }
 header a {
 	color: #D9D9D9;
@@ -18,10 +24,15 @@ a{
 	text-decoration: none;
 	color: #000000;
 }
+nav{
+	float: right;
+	padding-top: 10px;
+}
 nav	ul {
 	margin:0;
 	padding:0;
 	list-style:none;
+	text-align: right;
 }
 nav ul li {
 	display: inline-block;
@@ -33,4 +44,4 @@ nav ul li a{
 nav ul li a:hover {
 	background-color: #D9D9D9;
 	color: #171717;
-}
+
