@@ -83,19 +83,17 @@ img{
 	flex-wrap: wrap;
 
 	border-bottom: solid 1px #CCC;
-	margin:10px;
-	padding:10px;
+	margin:1rem;
+	padding:1rem;
 }
 .noticia:last-child {
 	border:none;
 }
 .noticia-img{
 	width: 30%;
-	height: 30%;
 	}
 .noticia-txt{
-	width: 60%;
-	height: 60%;
+	width: 65%;
 }
 .noticia-txt h3{
 	font-size: 20px;
@@ -174,3 +172,15 @@ footer{
 		left: -200vw;
 	}
 }
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
