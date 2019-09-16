@@ -46,3 +46,23 @@
   <li class="item"><a href="#" target="_blank">Item X</a></li>
 </ul>
 figure.art>img[src=...alt=algo]+figcaption{texto de img}
+<script>
+
+      let ajax = new XMLHttpRequest();
+
+    
+      // 1) Obtención de datos
+      ajax.open("GET","noticias.json",true);
+      ajax.onreadystatechange = function(){ //<-- hacer esto...(petision exitosa)
+        
+        if (this.readyState == 4 && this.status ==200) { //respuesta exitosa
+        
+           console.log (this.responseText) //<-- JSON plano
+           } 
+        
+      }
+      
+      ajax.send()
+      
+    
+    </script>
